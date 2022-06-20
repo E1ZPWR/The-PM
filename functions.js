@@ -1,6 +1,7 @@
 // link btn at the end od bio paragraph
 const KReadMore = document.querySelector('#KReadMore');
 const PReadMore = document.querySelector('#PReadMore');
+
 // div paragraph for the long story
 const kdiv = document.querySelector('#kdiv');
 const pdiv = document.querySelector('#pdiv');
@@ -16,7 +17,7 @@ function readMoreBtnK() {
         KReadMore.innerHTML = 'Read Less';
         kdiv.style.display = 'block';
         /**
-         * 此时长故事已经显示，再次点击，则不显示，并且改变按键字为显示
+         * 此时长故事已经显示，再次点击，则不显示，并且改变按键字为'Read More'
          */
     } else {
         KReadMore.innerHTML = 'Read More';
